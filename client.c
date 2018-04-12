@@ -6,6 +6,7 @@ int main(int argc, char *argv[])
 	CLIENT *cl;
 	add_in in;
 	add_out *out;
+	printf("Hello");	
 	if(argc!=4){ 
 		printf("Usage:......\n");
 		return 1;
